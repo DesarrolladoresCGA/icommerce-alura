@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilosMenuAdmin.css">
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row logo">
+                <div class="logo-logo col-md-2 col-ms-4">
+                    <img src="img/Logo.png" alt="logo">
+                    
+                </div>
+                <div class="boton-header col-md-10 col-ms-8 d-flex justify-content-between">
+                    <input type="search" placeholder="¿Que deseas buscar?" class="buscar">
+                </div>
+            </div>
+            <div class="row imagen">
+                <div class="imagen-header">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="formulario col-lg-12 d-flex justify-content-center">
+            <form action="php/iniciar.php" method="post" class="col-11 col-md-6 col-lg-4">
+                <div class="mb-3">
+                    <h3 class="mb-3 text-center">Iniciar Sesión</h3>
+                    <input type="text" name="txtCorreo" class="form-control" placeholder="Rscriba su correo electronico">
+                </div>
+                <div class="mb-3">
+                    <input type="password" name="txtContrasena" class="form-control" placeholder="Escriba su contraseña">
+                </div>
+                <div class="d-flex justify-content-center">
+                    <input type="submit" value="Entrar" class="btn btn-primary col-6 col-md-4 col-lg-12">
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="row pie-pagina">
+        <div class="pie-logo-quienes-somos col-lg-6  d-flex justify-content-between">
+            <div class="pie-logo col-lg-4">
+                <img src="img/Logo.png" alt="">
+            </div>
+            <div class="pie-quienes-somos col-lg-8 d-flex justify-content-center">
+                <div class=" d-flex flex-column">
+                    <a href="#">Quienes somos</a>
+                    <a href="#">Politicas de privacidad</a>
+                    <a href="#">Programa de fidelidad</a>
+                    <a href="#">Nuestras tiendas</a>
+                    <a href="#">Quiero ser franquiciado</a>
+                    <a href="#">Anuncie aqui</a>
+                </div>
+            </div>
+        </div>
+        <div class="pie-formulario col-lg-6 mb-3">
+            <form action="">
+                <div class="mb-3">
+                    <h3>Hable con nosotros</h3>
+                    <input type="text" class="form-control" placeholder="Nombre:">
+                </div>
+                <div class="mb-3">
+                    <textarea name="mensaje" id="mensaje" class="form-control" placeholder="Escribe tu mensaje:"></textarea>
+                </div>
+                <input type="button" value="Enviar mensaje" class="btn btn-primary">
+            </form>
+        </div>
+    </section>
+    <footer class="d-flex justify-content-center">
+        <h3>Desarrollado por luis de tal 2022</h3>
+    </footer>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

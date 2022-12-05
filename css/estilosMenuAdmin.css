@@ -1,0 +1,138 @@
+.logo{
+    padding: 10px 150px;
+}
+.logo .buscar{
+    width: 400px;
+    padding: 8px 8px;
+    border-radius: 20px;
+    margin-left: 30px;
+    background: rgb(240, 239, 239);
+    border: none;
+}
+.boton-header{
+    display: flex;
+    align-items: center;
+}
+.boton-header input{
+    width: 200px;
+    font-size: 20px;
+    background: #fff;
+    border: 2px solid rgb(4, 182, 252);
+    color: rgb(4, 182, 252);
+}
+.boton-header input[type="submit"]:hover{
+    background: rgb(4, 182, 252);
+    color: #fff;
+}
+.formulario {
+    padding: 80px 0 80px 0;
+    background: rgb(235, 233, 233);
+}
+.formulario form input{
+    padding: 12px;
+}
+.btnEditar{
+    margin-left: 4px;
+}
+.pie-pagina{
+    padding: 50px 150px 50px 150px;
+    margin: 0;
+    background: rgb(224, 237, 248);
+}
+.pie-quienes-somos a{
+    text-decoration: none;
+    color: #000;
+    padding: 0 0 10px 0;
+}
+footer{
+    padding: 30px 0;
+}
+footer h3{
+    font-size: 15px;
+}
+@media screen and (max-width:900px){
+    .logo{
+        padding: 10px 25px;
+    }
+    .logo img{
+        width: 130px;
+    }
+    .logo .buscar{
+        width: 400px;
+        padding: 4px 8px;
+        margin-left: 20px;
+    }
+    .boton-header input{
+        width: 200px;
+        font-size: 18px;
+    }
+    .formulario {
+        padding: 40px 0 40px 0;
+    }
+    .pie-pagina{
+        padding: 50px 25px 50px 25px;
+    }
+    .pie-logo{
+        width: 100%;
+    }
+    .pie-logo-quienes-somos{
+        width: 30%;
+        flex-direction: column;
+    }
+    .pie-quienes-somos{
+        width: 100%;
+        justify-content:left;
+    }
+    .pie-formulario{
+        width: 70%;
+    }
+    .pie-formulario h3{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:400px){
+    .logo{
+        padding: 10px 5px;
+    }
+    .logo-logo{
+        width: 25%;
+    }
+    .logo img{
+        width: 100px;
+    }
+    .logo .buscar{
+        width: 50px;
+        padding: 4px 8px;
+        margin-left: 5px;
+    }
+    .boton-header{
+        width: 75%;
+        flex-direction: row-reverse;
+    }
+    .boton-header input{
+        font-size: 15px;
+    }
+    .boton-header input[type="submit"]{
+        margin: 0 20px 0 20px;
+    }
+    .formulario {
+        padding: 15px 15px 15px 15px;
+        background: rgb(235, 233, 233);
+    }
+    .pie-pagina{
+        padding: 50px 5px 50px 5px;
+    }
+    .pie-logo-quienes-somos{
+        width: 100%;
+    }
+    .pie-logo{
+        text-align: center;
+    }
+    .pie-quienes-somos div {
+        text-align: center;
+    }
+    .pie-formulario{
+        margin-top: 20px;
+        width: 100%;
+    }
+}
